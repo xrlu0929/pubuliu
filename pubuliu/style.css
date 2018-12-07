@@ -1,0 +1,67 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "arial rounded mt bold";
+}
+
+body{
+	background: #ddd url(img/bg.jpg) repeat;
+}
+#title-bar{
+	width: 600px;
+	margin: 20px auto;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color:#444;
+}
+a:hover{
+	color: #999;
+}
+
+#wrapper{
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+#wrapper .box{
+	width: 280px;
+	height: auto;
+	padding: 10px;
+	border: none;
+	float: left;
+}
+
+#wrapper .box .pic_area{
+	width:280px;
+	height: auto;
+	border-radius: 8px;
+	background: #ffffff;
+}
+
+#wrapper .box .pic_area .pic{
+	width: 260px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+#wrapper .box .pic_area .pic img{
+	width: 260px;
+	height: auto;
+	border-radius: 3px;
+}
+
+#wrapper .box .pic_area .caption{
+	width: 260px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+	color: #666;
+	font-weight:bolder;
+	overflow: hidden;
+}
