@@ -66,6 +66,38 @@ a:hover{
 	overflow: hidden;
 }
 
-#wrapper .box .info .pic:hover {
-	
+#wrapper .box .pic:hover {
+	-webkit-animation: shade 3s ease-in-out 1;
+	-mos-animation: shade 3s ease-in-out 1;
+	-o-animation: shade 3s ease-in-out 1;
+	-ms-animation: shade 3s ease-in-out 1;
+	animation:shade 3s ease-in-out 1;
+}
+
+@-webkit-keyframes shade {
+	from{opacity: 1;}
+	15%{opacity: 0.4;}
+	to{opacity: 1;}
+}
+@-moz-keyframes shade{
+	from{opacity: 1;}
+	15%{opacity: 0.4;}
+	to{opacity: 1;}
+}
+
+@-o-keyframes shade{
+	from{opacity: 1;}
+	15%{opacity: 0.4;}
+	to{opacity: 1;}
+}
+
+@-ms-keyframes shade{
+	from{opacity: 1;}
+	15%{opacity: 0.4;}
+	to{opacity: 1;}
+}
+@keyframes shade{
+	from{opacity: 1;}
+	15%{opacity: 0.4;}
+	to{opacity: 1;}
 }
